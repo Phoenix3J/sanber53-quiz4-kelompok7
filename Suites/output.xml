@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-10T14:02:58.456713" rpa="false" schemaversion="5">
+<suite id="s1" name="Book1" source="C:\Users\Jan 'S3' Prawira\Documents\quiz4-jan\Suites\Book1.robot">
+<test id="s1-t1" name="Book flight normally" line="7">
+<kw name="Open Flight Application" owner="base">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2024-02-10T14:03:04.947894" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2024-02-10T14:03:04.947894" elapsed="0.002010">No application is open</status>
+</kw>
+<msg time="2024-02-10T14:03:04.951007" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-10T14:03:04.952011" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+    at AppiumDriver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)</msg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=12.0</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>appPackage=com.example.myapplication</arg>
+<arg>appActivity=com.example.myapplication.MainActivity</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2024-02-10T14:02:58.631898" elapsed="6.320113">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+    at AppiumDriver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)</status>
+</kw>
+<status status="FAIL" start="2024-02-10T14:02:58.631898" elapsed="6.320113">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+    at AppiumDriver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)</status>
+</kw>
+<kw name="Click Sign In Button On Home Page" owner="home-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.953092" elapsed="0.000000"/>
+</kw>
+<kw name="Input Valid Username" owner="login-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.953092" elapsed="0.000000"/>
+</kw>
+<kw name="Input Valid Password" owner="login-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.953092" elapsed="0.000000"/>
+</kw>
+<kw name="Click Sign In Button On Login page" owner="login-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.953092" elapsed="0.000000"/>
+</kw>
+<kw name="Verify User Is Success Logged In" owner="login-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.953092" elapsed="0.000000"/>
+</kw>
+<kw name="Click Book Button on Home Page" owner="home-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.954094" elapsed="0.000000"/>
+</kw>
+<kw name="Click OneWay" owner="Book-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.954094" elapsed="0.000000"/>
+</kw>
+<kw name="Choose Start and End Date" owner="Book-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.954094" elapsed="0.000000"/>
+</kw>
+<kw name="Choose Flight Only" owner="Book-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.954094" elapsed="0.000000"/>
+</kw>
+<kw name="Check Plus/Minus Day" owner="Book-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.954094" elapsed="0.000000"/>
+</kw>
+<kw name="Click Book flight button" owner="Book-page">
+<status status="NOT RUN" start="2024-02-10T14:03:04.955129" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-02-10T14:02:58.630921" elapsed="6.324208">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\commands\viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:230:7)
+    at AppiumDriver.createSession (C:\Users\Jan 'S3' Prawira\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\lib\appium.js:387:35)</status>
+</test>
+<status status="FAIL" start="2024-02-10T14:02:58.457684" elapsed="6.498459"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Book1">Book1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-10T14:03:04.951007" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

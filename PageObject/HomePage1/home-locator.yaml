@@ -1,0 +1,3 @@
+login_btn: //android.widget.Button[@resource-id="com.example.myapplication:id/login"]
+search_btn: //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
+book_btn: //android.widget.Button[@resource-id="com.example.myapplication:id/book"]
