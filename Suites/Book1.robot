@@ -12,8 +12,9 @@ Book flight normally
         Click Sign In Button On Login page
         Verify User Is Success Logged In
         Click Book Button on Home Page
-        Click OneWay
-        Choose Start and End Date
         Choose Flight Only
-        Check Plus/Minus Day
         Click Book flight button
+        Click Price
+        Click confirm order
+        Verify done order
+        

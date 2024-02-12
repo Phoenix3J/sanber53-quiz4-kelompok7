@@ -32,6 +32,7 @@ Choose Start and End Date
     Get Element Attribute    locator=${endDate_btn}    attribute=@content-desc="09 August 2019"
 
 Choose Flight Only
+    Wait Until Element Is Visible    locator=${FlightOnly_radioBtn}
     Click Element    locator=${FlightOnly_radioBtn}
 Choose Flight + Hotel
     Click Element    locator=${FlightHotel_radioBtn}
@@ -40,3 +41,16 @@ Check Plus/Minus Day
 
 Click Book flight button
     Click Element    locator=${bookFlight_btn}
+
+Click Price
+    Wait Until Element Is Visible    locator=${Price1_btn}
+    Click Element    locator=${Price1_btn}
+
+Click confirm order
+    Wait Until Element Is Visible    locator=${confirmOrder_btn}
+    Click Element    locator=${confirmOrder_btn}
+
+Verify done order
+    
+    Wait Until Page Contains    text=Your flight is booked. Reservation number is CADX2214
+    

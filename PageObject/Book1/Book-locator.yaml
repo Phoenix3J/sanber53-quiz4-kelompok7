@@ -15,7 +15,7 @@ bookFlight_btn : //android.widget.Button[@resource-id="com.example.myapplication
 #Book_Page2
 #FromCity_text : //android.widget.TextView[@resource-id="com.example.myapplication:id/textFromCity"]
 #ToCity_text : //android.widget.TextView[@resource-id="com.example.myapplication:id/textToCity"]
-#Price1_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price1"]
+Price1_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price1"]
 #Price2_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price2"]
 #Price3_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price3"]
 #Price4_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price4"]
@@ -24,7 +24,7 @@ bookFlight_btn : //android.widget.Button[@resource-id="com.example.myapplication
 #Price7_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price7"]
 #Price8_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price8"]
 #Price9_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/price9"]
-#confirmOrder_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+confirmOrder_btn : //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
 
 #Book_Page3
 #successOrder_text : //android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]
