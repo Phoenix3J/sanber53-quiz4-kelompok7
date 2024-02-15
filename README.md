@@ -12,6 +12,9 @@ List link screen record :
 - Screen Recording - Quiz 4 - Tesalonika Aprisda Sitopu
   https://drive.google.com/drive/folders/1F5oEH4IwBZi_h3TMLzrHU1N9S8aqoiyn?usp=sharing
 
+- Screen Recording - Quiz 4 - Riris Iyut Siregar
+  https://drive.google.com/file/d/1MrkZEpq84FAJJ7cxKOW7NjJV9G3zxVy8/view?usp=sharing
+
 **MOBILE AUTOMATION**
 
 ANGGOTA KELOMPOK 7
